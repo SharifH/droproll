@@ -64,7 +64,7 @@ $(document).ready(function(){
 						
 						if (data.message === 'success')
 						{
-							localStorage["bruceroll"] = data.token;
+							localStorage["droproll"] = data.token;
 							localStorage["name"] = personName;
 							location.reload();
 						}
@@ -156,7 +156,7 @@ $(document).ready(function(){
 		$('#imageviewer').slideUp();
 	});
 
-	$('#loadmorebruce').on('click', function(){
+	$('#loadmoredroproll').on('click', function(){
 		for (var i=0;i<initialSet-1;i++)
 			{
 				printImages();
@@ -306,7 +306,7 @@ $(document).ready(function(){
 	}
 
 	function logOut(){
-		localStorage.removeItem("bruceroll");
+		localStorage.removeItem("droproll");
 		localStorage.removeItem("name");
 		location.reload();
 	}
