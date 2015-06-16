@@ -4,7 +4,7 @@ require("commander.php");
 
 $password = $_GET["p"];
 
-if ($password == "password")
+if ($password == "comewithyourownpassword")
 {
 	echo $success_json;
 }

@@ -46,7 +46,7 @@ if (isset($trimmedfiles[$counter]))
 
 else
 {
-	$nomorejson = json_encode(array('html' => '<p class="lead">You have the reached the begining of BruceRoll</p>', 'count' => $directorysize), JSON_FORCE_OBJECT);
+	$nomorejson = json_encode(array('html' => '<p class="lead">You have the reached the begining of DropRoll</p>', 'count' => $directorysize), JSON_FORCE_OBJECT);
 	echo $nomorejson;
 }
  
