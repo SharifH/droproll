@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 	//Checks for a password when page first loads
 
-	if (!localStorage["bruceroll"]) {
+	if (!localStorage["droproll"]) {
 			$('#passwordbox').modal('show');
 		} 
 	else {
